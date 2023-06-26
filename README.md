@@ -96,6 +96,7 @@
 <head>
 <html>
 <head>
+ 
   <title>Plugin the whole number to see if you get the right amount needed</title>
   <script>
     function calculateAmount() {
