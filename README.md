@@ -97,6 +97,57 @@
 <html>
 <head>
   <title>Plugin the whole number to see if you get the right amount needed</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .input-group {
+      margin-bottom: 10px;
+    }
+
+    label {
+      display: inline-block;
+      width: 200px;
+    }
+
+    input[type="number"] {
+      width: 200px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #337ab7;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .result {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Tax Calculator</h1>
+
+  <div class="input-group">
+    <label for="input-amount">Enter an amount:</label>
+    <input type="number" id="input-amount">
+  </div>
+
+  <button onclick="calculateAmount()">Calculate</button>
+
+  <div class="result" id="result"></div>
+
   <script>
     function calculateAmount() {
       var inputAmount = document.getElementById("input-amount").value;
@@ -106,27 +157,6 @@
       document.getElementById("result").textContent = "Amount After Tax: " + amountAfterTax.toFixed(2);
     }
   </script>
-</head>
-<body>
-  <h1>Tax Calculator</h1>
-
-  <div>
-    <label for="input-amount">Enter an amount:</label>
-    <input type="number" id="input-amount">
-  </div>
-
-  <button onclick="calculateAmount()">Calculate</button>
-
-  <div id="result"></div>
-</body>
-</html>
-
-<html>
-<head>
-  <title>Donation List</title>
-</head>
-<body>
-  <h1>Donation List</h1>
 </body>
 </html>
 
@@ -135,10 +165,9 @@
   <title>Donate Button</title>
   <style>
     .donate-button {
-      display: block;
-      margin: 10px auto;
+      display: inline-block;
       padding: 10px 20px;
-      font-size: 18px;
+      font-size: 16px;
       text-align: center;
       color: #fff;
       background-color: #337ab7;
@@ -150,9 +179,6 @@
   </style>
 </head>
 <body>
-  <a class="donate-button" href="https://www.roblox.com/catalog/6735118737/Dark-Blue-Fendi-Hoodie" target="_blank">Donate Robux💎</a>
-</body>
-</html>
 
 <html>
 <head>
