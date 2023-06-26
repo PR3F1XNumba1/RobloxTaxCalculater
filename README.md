@@ -63,6 +63,7 @@
   </script>
 </body>
 </html>
+
 <html>
 <head>
   <title>Round to Next Whole Number</title>
@@ -92,11 +93,9 @@
   <div id="result"></div>
 </body>
 </html>
+
 <html>
 <head>
-<html>
-<head>
- 
   <title>Plugin the whole number to see if you get the right amount needed</title>
   <script>
     function calculateAmount() {
@@ -121,17 +120,20 @@
   <div id="result"></div>
 </body>
 </html>
-  <html>
+
+<html>
 <head>
   <title>Donation List</title>
 </head>
 <body>
   <h1>Donation List</h1>
 </body>
-</html>  <style>
-    /* Add your CSS styles here */
-    /* ... */
+</html>
 
+<html>
+<head>
+  <title>Donate Button</title>
+  <style>
     .donate-button {
       display: block;
       margin: 10px auto;
@@ -148,13 +150,10 @@
   </style>
 </head>
 <body>
-
-
   <a class="donate-button" href="https://www.roblox.com/catalog/6735118737/Dark-Blue-Fendi-Hoodie" target="_blank">Donate Robux💎</a>
-
-
 </body>
 </html>
+
 <html>
 <head>
   <title>Donate Button</title>
@@ -174,6 +173,3 @@
   </style>
 </head>
 <body>
-  <a class="donate-button" href="https://paypal.me/gametime910?country.x=US&locale.x=en_US" target="_blank">Donate Money💰</a>
-</body>
-</html>
