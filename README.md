@@ -96,6 +96,32 @@
 <head>
 <html>
 <head>
+  <title>Plugin the whole number to see if you get the right amount needed</title>
+  <script>
+    function calculateAmount() {
+      var inputAmount = document.getElementById("input-amount").value;
+      var taxRate = 0.3;
+      var amountAfterTax = inputAmount * (1 - taxRate);
+
+      document.getElementById("result").textContent = "Amount After Tax: " + amountAfterTax.toFixed(2);
+    }
+  </script>
+</head>
+<body>
+  <h1>Tax Calculator</h1>
+
+  <div>
+    <label for="input-amount">Enter an amount:</label>
+    <input type="number" id="input-amount">
+  </div>
+
+  <button onclick="calculateAmount()">Calculate</button>
+
+  <div id="result"></div>
+</body>
+</html>
+  <html>
+<head>
   <title>Donation List</title>
 </head>
 <body>
