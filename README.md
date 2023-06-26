@@ -63,23 +63,12 @@
   </script>
 </body>
 </html>
-/* Styles for the donation button */
-.donate-button {
-  display: block;
-  margin: 20px auto;
-  padding: 10px 20px;
-  font-size: 18px;
-  color: #fff;
-  background-color: #337ab7;
-  border: none;
-  border-radius: 4px;
-  text-decoration: none;
-  cursor: pointer;
-  text-align: center;
-}
-.donate-button:hover {
-  background-color: #23527c;
-}
+<html>
+<head>
+  <title>Roblox DevEx Calculator</title>
+  <style>
+    /* Add your CSS styles here */
+    /* ... */
 
     .donate-button {
       display: block;
@@ -97,31 +86,11 @@
   </style>
 </head>
 <body>
+  <h1>Roblox DevEx Calculator</h1>
 
-  <a class="donate-button" href="https://www.roblox.com/catalog/6735118737/Dark-Blue-Fendi-Hoodie" target="_blank">Donate Robux💎</a>
 
-</body>
-</html>
-</body>
-<html>
-<head>
-  <title>Donate Button</title>
-  <style>
-    .donate-button {
-      display: inline-block;
-      padding: 10px 20px;
-      font-size: 16px;
-      text-align: center;
-      color: #fff;
-      background-color: #337ab7;
-      border: none;
-      border-radius: 4px;
-      text-decoration: none;
-      cursor: pointer;
-    }
-  </style>
-</head>
-<body>
-  <a class="donate-button" href="https://paypal.me/gametime910?country.x=US&locale.x=en_US" target="_blank">Donate money💰</a>
+  <a class="donate-button" href="https://www.roblox.com/catalog/6735118737/Dark-Blue-Fendi-Hoodie" target="_blank">Donate Robux</a>
+
+
 </body>
 </html>
