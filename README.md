@@ -121,7 +121,6 @@
   </style>
 </head>
 <body>
-  <h1>Roblox DevEx Calculator</h1>
 
 
   <a class="donate-button" href="https://www.roblox.com/catalog/6735118737/Dark-Blue-Fendi-Hoodie" target="_blank">Donate Robux💎</a>
