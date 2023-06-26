@@ -89,12 +89,11 @@
   <h1>Roblox DevEx Calculator</h1>
 
 
-  <a class="donate-button" href="https://www.roblox.com/catalog/6735118737/Dark-Blue-Fendi-Hoodie" target="_blank">Donate Robux</a>
+  <a class="donate-button" href="https://www.roblox.com/catalog/6735118737/Dark-Blue-Fendi-Hoodie" target="_blank">Donate Robux💎</a>
 
 
 </body>
 </html>
-<!DOCTYPE html>
 <html>
 <head>
   <title>Donate Button</title>
@@ -114,6 +113,6 @@
   </style>
 </head>
 <body>
-  <a class="donate-button" href="https://paypal.me/gametime910?country.x=US&locale.x=en_US" target="_blank">Donate Money</a>
+  <a class="donate-button" href="https://paypal.me/gametime910?country.x=US&locale.x=en_US" target="_blank">Donate Money💰</a>
 </body>
 </html>
