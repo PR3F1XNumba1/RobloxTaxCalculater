@@ -63,7 +63,6 @@
   </script>
 </body>
 </html>
-<!DOCTYPE html>
 <html>
 <head>
   <title>Round to Next Whole Number</title>
