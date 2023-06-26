@@ -83,7 +83,7 @@
   <h1>Round to Next Whole Number</h1>
 
   <div>
-    <label for="numbers">Enter a set of numbers (separated by commas):</label>
+    <label for="numbers">Enter The Numbers That Were Given To You Above (Including The Decimals):</label>
     <input type="text" id="numbers">
   </div>
 
