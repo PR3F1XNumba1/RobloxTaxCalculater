@@ -63,6 +63,36 @@
   </script>
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Round to Next Whole Number</title>
+  <script>
+    function roundNumbers() {
+      var numbers = document.getElementById("numbers").value;
+      var numbersArray = numbers.split(",");
+
+      var roundedNumbers = numbersArray.map(function(number) {
+        return Math.ceil(parseFloat(number));
+      });
+
+      document.getElementById("result").textContent = "Rounded Numbers: " + roundedNumbers.join(", ");
+    }
+  </script>
+</head>
+<body>
+  <h1>Round to Next Whole Number</h1>
+
+  <div>
+    <label for="numbers">Enter a set of numbers (separated by commas):</label>
+    <input type="text" id="numbers">
+  </div>
+
+  <button onclick="roundNumbers()">Round</button>
+
+  <div id="result"></div>
+</body>
+</html>
 <html>
 <head>
   <title>Roblox DevEx Calculator</title>
