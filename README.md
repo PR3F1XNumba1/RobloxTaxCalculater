@@ -94,8 +94,14 @@
 </html>
 <html>
 <head>
-  <title>Donations To support creator</title>
-  <style>
+<html>
+<head>
+  <title>Donation List</title>
+</head>
+<body>
+  <h1>Donation List</h1>
+</body>
+</html>  <style>
     /* Add your CSS styles here */
     /* ... */
 
